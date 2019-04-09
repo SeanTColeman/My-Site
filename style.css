@@ -129,7 +129,7 @@ nav ul li a:hover {}
   transition: 0.1s ease;
 }
 
-.paralax {
+.posts-section {
   background-image: url('img/building.jpg');
   min-height: 500px;
   color: white;
@@ -141,12 +141,12 @@ nav ul li a:hover {}
   background-attachment: fixed;
 }
 
-.paralax .wrapper {
+.posts-section .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
-.paralax h2 {
+.posts-section h2 {
   padding: 30px 0;
   font-size: 35px;
 }
@@ -184,11 +184,15 @@ nav ul li a:hover {}
 
 .post h3 {
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .post p {
   padding-bottom: 20px;
+  line-height: 25px;
 }
+
+/********************** PROJECTS ****************************** */
 
 .projects-top {
   text-align: center;
@@ -373,10 +377,7 @@ footer {
     width: 42%;
   }
 
-  .post img {
-    width: 50%;
-    float: right;
-  }
+
 
   .wrapper {
     width: 95%;
@@ -427,6 +428,20 @@ footer {
 
   .hero-btn a {
     font-size: 20px;
+  }
+
+  .post img {
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+  }
+
+  .post {
+    padding-bottom: 30px
+  }
+
+  .post a {
+    /* float: right; */
   }
 
   .contact-info {
