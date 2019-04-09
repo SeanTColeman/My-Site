@@ -129,7 +129,7 @@ nav ul li a:hover {}
   transition: 0.1s ease;
 }
 
-.paralax {
+.posts-section {
   background-image: url('img/building.jpg');
   min-height: 500px;
   color: white;
@@ -141,12 +141,12 @@ nav ul li a:hover {}
   background-attachment: fixed;
 }
 
-.paralax .wrapper {
+.posts-section .wrapper {
   width: 90%;
   margin: 0 auto;
 }
 
-.paralax h2 {
+.posts-section h2 {
   padding: 30px 0;
   font-size: 35px;
 }
@@ -191,6 +191,8 @@ nav ul li a:hover {}
   padding-bottom: 20px;
   line-height: 25px;
 }
+
+/********************** PROJECTS ****************************** */
 
 .projects-top {
   text-align: center;
