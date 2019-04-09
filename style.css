@@ -184,10 +184,12 @@ nav ul li a:hover {}
 
 .post h3 {
   padding-bottom: 20px;
+  font-size: 20px;
 }
 
 .post p {
   padding-bottom: 20px;
+  line-height: 25px;
 }
 
 .projects-top {
@@ -373,10 +375,7 @@ footer {
     width: 42%;
   }
 
-  .post img {
-    width: 50%;
-    float: right;
-  }
+
 
   .wrapper {
     width: 95%;
@@ -427,6 +426,20 @@ footer {
 
   .hero-btn a {
     font-size: 20px;
+  }
+
+  .post img {
+    width: 50%;
+    float: right;
+    margin-left: 10px;
+  }
+
+  .post {
+    padding-bottom: 30px
+  }
+
+  .post a {
+    /* float: right; */
   }
 
   .contact-info {
