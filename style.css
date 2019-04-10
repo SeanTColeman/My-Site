@@ -192,6 +192,28 @@ nav ul li a:hover {}
   line-height: 25px;
 }
 
+/************************ BLog **************************8  */
+.gray {
+  background: #f9f9f9 ;
+}
+
+hr {
+  margin: 25px 0;
+}
+.blog {
+  padding: 20px;
+}
+
+.blog h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.blog p {
+  font-size: 18px;
+  margin: 25px 0;
+}
+
 /********************** PROJECTS ****************************** */
 
 .projects-top {

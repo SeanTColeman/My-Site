@@ -239,6 +239,10 @@ footer {
     padding: 20px;
   }
 
+  .post h3 {
+    font-size: 30px;
+  }
+
 
   .wrapper {
       width: 95%;
