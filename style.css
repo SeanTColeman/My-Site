@@ -206,12 +206,18 @@ hr {
 
 .blog h1 {
   text-align: center;
-  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.blog h3 {
+  font-size: 22px;
+  text-align: center;
 }
 
 .blog p {
   font-size: 18px;
   margin: 25px 0;
+  line-height: 40px;
 }
 
 /********************** PROJECTS ****************************** */
