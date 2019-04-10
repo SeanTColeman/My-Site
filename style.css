@@ -194,12 +194,13 @@ nav ul li a:hover {}
 
 /************************ BLog **************************8  */
 .gray {
-  background: #f9f9f9 ;
+  background: #f9f9f9;
 }
 
 hr {
   margin: 25px 0;
 }
+
 .blog {
   padding: 20px;
 }
@@ -221,7 +222,6 @@ hr {
 }
 
 /********************** PROJECTS ****************************** */
-
 .projects-top {
   text-align: center;
   padding: 30px 0;
@@ -298,8 +298,7 @@ footer .wrapper {
 }
 
 .contact-info {
-  margin:30px 0 10px 0;
-
+  margin: 30px 0 10px 0;
 }
 
 .contact-info p {
@@ -364,6 +363,7 @@ footer {
   text-decoration: underline;
 }
 
+/********************************RESPONSIVE RULES***********************  */
 @media screen and (min-width: 768px) {
   #nav-toggle {
     visibility: hidden;
@@ -405,8 +405,6 @@ footer {
     width: 42%;
   }
 
-
-
   .wrapper {
     width: 95%;
     margin: 0 auto;
@@ -421,7 +419,12 @@ footer {
     width: 32%;
   }
 
-  . .contact-info {
+  .blog {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-info {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -468,8 +471,9 @@ footer {
     padding-bottom: 30px
   }
 
-  .post a {
-    /* float: right; */
+  .blog {
+    width: 60%;
+    margin: 0 auto;
   }
 
   .contact-info {
@@ -490,15 +494,7 @@ footer {
     display: flex;
   }
 
-  hr {
-    width: 50%;
-    visibility: none;
-  }
-}
-
 @media screen and (min-width: 1400px) {
-
-
   .hero-text h1 {
     font-size: 60px;
   }
@@ -510,6 +506,11 @@ footer {
 
   .hero-btn a {
     font-size: 30px;
+  }
+
+  .blog {
+    width: 50%;
+    margin: 0 auto;
   }
 
   .contact-info {
