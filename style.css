@@ -376,6 +376,12 @@ footer {
     width: 80%;
     margin: 0 auto;
   }
+
+  .blog img {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
