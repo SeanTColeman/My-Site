@@ -1,108 +1,117 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a portfolio site.">
-    <meta name="keywords" content="coding, html, css, javascript, portfolio">
-    <meta name="author" content="Sean Coleman">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Sean Coleman</title>
-  </head>
-  <body>
 
-      <nav>
-        <div class="nav-buttons">
-          <a href="#"><h1>Sean Coleman</h1></a>
-          <button type="button" name="button" id="nav-toggle" onclick="toggleNav()"><img src="img/blackmenubars.svg.png" alt=""></button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a portfolio site.">
+  <meta name="keywords" content="coding, html, css, javascript, portfolio">
+  <meta name="author" content="Sean Coleman">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Sean Coleman</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-buttons">
+      <a href="#">
+        <h1>Sean Coleman</h1>
+      </a>
+      <button type="button" name="button" id="nav-toggle" onclick="toggleNav()"><img src="img/blackmenubars.svg.png" alt=""></button>
+    </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-img">
+    </div>
+    <div class="hero-text">
+      <div>
+        <h1>I specialize in Front-end Web Development.</h1>
+        <p>Focused on providing <strong>creative</strong> and <strong>responsive</strong> designs with <strong>user-friendly</strong> functionality.</p>
+        <div class="hero-btn">
+          <a href="#contact">Contact</a>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-
-    <div class="hero">
-      <div class="hero-img">
-
-      </div>
-      <div class="hero-text">
-        <div class="wrapper">
-          <h1>I specialize in Front-end Web Development.</h1>
-
-
-
-          <p>Focused on providing <strong>creative</strong> and <strong>responsive</strong> designs with <strong>user-friendly</strong> functionality.</p>
-
-          <div class="hero-btn">
-            <a href="#contact">Contact</a>
-          </div>
-        </div>
-
       </div>
     </div>
-    <div class="posts-section">
+  </section>
+
+  <section class="paralax">
+    <h2>Design | Development</h2>
+  </section>
+
+  <section class="projects">
+      <h2>Projects</h2>
+      <div class="projects-group">
+          <div class="project">
+            <h3>Sample Layout</h3>
+            <a href="https://seantcoleman.github.io/Sample-Site-Design/">Check out the site</a>
+            <a href="https://github.com/SeanTColeman/Sample-Site-Design">Check out the code</a>
+          </div>
+
+          <div class="project">
+            <h3>Calculator</h3>
+            <a href="https://seantcoleman.github.io/Calculator/">Check out the site</a>
+            <a href="https://github.com/SeanTColeman/Calculator">Check out the code</a>
+          </div>
+      </div>
+      <a class="more-work" href="https://github.com/SeanTColeman">More Work</a>
+  </section>
+
+  <section class="posts">
       <a name="blog"></a>
-      <div class="wrapper">
-        <h2>Posts</h2>
-        <div class="posts">
+      <h2>Posts</h2>
+      <div class="posts-group">
           <div class="post">
-            <img src="img/responsive.png" alt="responsive">
-            <div>
               <h3>The Importance of CSS Grid</h3>
               <p>Achieve a responsive design on all devices with as little as two lines with CSS Grid.</p>
               <a href="blog1.html">See More</a>
-            </div>
-
           </div>
-
           <div class="post">
-            <img src="img/home-office.jpg" alt="office">
-            <div >
               <h3>The Power of a First Impression</h3>
-              <p>First impressions will make or break you. Your website is often the first impression you have on people.</p>
+              <p>First impressions will make or break you. Your websites impression will have a lasting impact.</p>
               <a href="blog2.html">See More</a>
-            </div>
-
           </div>
-        </div>
       </div>
+  </section>
 
+  <section class="contact">
+    <h2><a name="contact">Get in touch!</a></h2>
+    <div class="contact-info">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      <p>scoleman2296@gmail.com</p>
     </div>
-    <div class="contact wrapper">
-      <h2><a name="contact">Get in touch!</a></h2>
-      <div class="contact-info">
-          <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          <p>scoleman2296@gmail.com</p>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <div class="footer-info">
+        <div class="footer-brand">
+          <h2>Sean Coleman</h2>
+          <h3>A freelance Web Developer with many talents.</h3>
+        </div>
+        <div class="social-icons">
+          <h2>Follow Me</h2>
+          <ul>
+            <li> <a href="https://github.com/seantcoleman"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li> <a href="https://www.linkedin.com/in/sean-coleman-32757014a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="go-to-top">
+        <a href="#">Back To Top</a>
       </div>
     </div>
-    <footer>
-      <div class="wrapper">
-        <div class="footer-info">
-          <div class="footer-brand">
-            <h2>Sean Coleman</h2>
-            <h3>A freelance Web Developer with many talents.</h3>
-          </div>
+  </footer>
+  <script src="main.js" charset="utf-8"></script>
+</body>
 
-
-          <div class="social-icons">
-            <h2>Follow Me</h2>
-            <ul>
-              <li> <a href="https://github.com/seantcoleman"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-              <li> <a href="https://www.linkedin.com/in/sean-coleman-32757014a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="go-to-top">
-          <a href="#">Back To Top</a>
-        </div>
-      </div>
-    </footer>
-    <script src="main.js" charset="utf-8"></script>
-  </body>
 </html>

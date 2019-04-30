@@ -133,37 +133,95 @@ nav ul li a:hover {}
   transition: 0.1s ease;
 }
 
-.posts-section {
+/* Section */
+.paralax {
   background-image: url('img/building.jpg');
-  min-height: 500px;
+  background-color: gray;
+  background-blend-mode: multiply;
+  min-height: 160px;
   color: white;
-  position: relative;
   background-position: center;
+  padding: 20px;
   background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
 }
 
-.posts-section .wrapper {
-  width: 90%;
-  margin: 0 auto;
+.paralax h2 {
+  font-size: 300%;
+  font-family: monospace;
 }
 
-.posts-section h2 {
-  padding: 30px 0;
-  font-size: 35px;
+/* Projects Section */
+.projects {
+  padding: 20px 0 40px 0;
+  background: #F5F5DC;
+  text-align: center;
+  border-bottom: 5px dotted black;
 }
+
+.projects a {
+  text-decoration:underline;
+}
+
+a.more-work {
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+a.more-work:hover {
+  color: orange;
+  transition: .5s ease-in-out;
+}
+
+.projects h2 {
+  margin: 0px;
+  font-size: 200%;
+}
+
+.projects-group {
+  padding: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px 20px 80px;
+}
+
+/* Posts Section */
 
 .posts {
+  background: #aaa;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+.posts h2 {
+  padding-bottom: 20px;
+  font-size: 200%;
+}
+
+.posts-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 30px;
 }
 
 .post {
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   padding-bottom: 40px;
   margin-bottom: 20px;
   text-align: center;
@@ -179,10 +237,6 @@ nav ul li a:hover {}
 .post a:hover {
   background: orange;
   transition: 0.5s ease;
-}
-
-.post img {
-
 }
 
 .post h3 {
@@ -222,7 +276,11 @@ hr {
 .blog h3 {
   font-size: 22px;
   text-align: center;
+}
 
+.blog img {
+  background: #999;
+  border-radius: 5px;
 }
 
 .blog p {
@@ -244,9 +302,10 @@ footer .wrapper {
 
 .contact {
   text-align: center;
-  width: 90%;
+
   margin: 0px auto;
-  padding: 25px 0;
+  padding: 20px;
+  border-bottom: 5px solid black;
 }
 
 .contact-info {
@@ -353,23 +412,26 @@ footer {
 
   .hero-text {
     width: 50%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 50px 20px;
+  }
+
+  .paralax h2 {
+    font-size: 400%;
+  }
+
+  /* Projects Section */
+  .projects-group {
+    display: flex;
+    justify-content: center;
   }
 
   .post {
     width: 42%;
-  }
-
-  .post img {
-    height: 200px;
-  }
-
-  .wrapper {
-    width: 95%;
-    margin: 0 auto;
+    margin: 0 10px;
   }
 
   .blog {
@@ -413,18 +475,12 @@ footer {
     font-size: 20px;
   }
 
-  .posts-section {
+  .paralax {
     background-attachment: fixed;
   }
 
-  .post img {
-    width: 70%;
-    height: auto;
-  }
-
-  .post p {
-    width: 80%;
-    margin: 0 auto;
+  .post {
+    width: 33%;
   }
 
   .blog {
@@ -457,6 +513,10 @@ footer {
 
     .hero-btn a {
       font-size: 30px;
+    }
+
+    .post {
+      width: 25%;
     }
 
     .blog {
