@@ -213,108 +213,6 @@ a.more-work:hover {
   margin: 5px 0;
 }
 
-/* Posts Section */
-
-.posts {
-  background: #40C6FF;
-  padding: 20px;
-  color: white;
-  text-align: center;
-  border-bottom: 5px solid black;
-}
-
-.posts h2 {
-  padding-bottom: 20px;
-  font-size: 200%;
-  color: #111;
-}
-
-.posts-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-
-.post {
-  background: rgba(0, 0, 0, 0.75);
-  border-radius: 5px;
-  width: 100%;
-  max-width: 350px;
-  padding: 15px;
-  padding-bottom: 40px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.post a {
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  background: orange;
-  border-radius: 3px;
-  padding: 10px;
-  text-decoration: none;
-  transition: .2s ease-in;
-}
-
-.post a:hover {
-  border: 2px solid white;
-}
-.post h3 {
-  margin: 20px 0;
-  font-size: 22px;
-}
-
-.post p {
-  margin-bottom: 30px;
-  line-height: 30px;
-  font-size: 18px;
-}
-
-/************************ BLog **************************8  */
-.gray {
-  background: #e3e3e3;
-  border-bottom: 5px solid #222;
-}
-
-hr {
-  margin: 25px;
-  background-color: orange;
-  border:none;
-  height: 2px;
-}
-
-.blog {
-  padding: 20px;
-}
-
-.blog h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.blog h3 {
-  font-size: 22px;
-  text-align: center;
-}
-
-.blog img {
-  background: #999;
-  border-radius: 5px;
-}
-
-.blog p {
-  font-size: 18px;
-  margin: 25px 0;
-  line-height: 40px;
-}
-
-.blog a {
-  color: orange;
-  text-decoration: underline;
-}
-
 footer .wrapper {
   width: 90%;
   margin: 0px auto;
@@ -449,22 +347,6 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
   }
-
-  .post {
-    width: 42%;
-    margin: 0 10px;
-  }
-
-  .blog {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .blog img {
-    width: 75%;
-    display: flex;
-    margin: 0 auto;
-  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -484,7 +366,7 @@ footer {
   }
 
   .hero-text h1 {
-    font-size: 50px;
+    font-size: 42px;
   }
 
   .hero-text p {
@@ -536,14 +418,5 @@ footer {
 
     .hero-btn a {
       font-size: 30px;
-    }
-
-    .post {
-      width: 25%;
-    }
-
-    .blog {
-      width: 50%;
-      margin: 0 auto;
     }
   }
