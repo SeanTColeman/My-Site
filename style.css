@@ -162,6 +162,7 @@ nav ul li a:hover {}
   border-bottom: 5px dotted black;
 }
 
+
 .projects a {
   text-decoration:underline;
 }
@@ -200,6 +201,7 @@ a.more-work:hover {
   border: 2px solid black;
   border-radius: 3px;
   width: 250px;
+
   background: hsla(360, 100%, 100%);
 }
 
