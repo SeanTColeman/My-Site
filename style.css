@@ -201,7 +201,6 @@ a.more-work:hover {
   border: 2px solid black;
   border-radius: 3px;
   width: 250px;
-
   background: hsla(360, 100%, 100%);
 }
 
@@ -221,7 +220,6 @@ footer .wrapper {
 
 .contact {
   text-align: center;
-
   margin: 0px auto;
   padding: 20px;
   border-bottom: 5px solid black;
@@ -238,8 +236,6 @@ footer .wrapper {
   color: black;
   margin-right: 5px;
 }
-
-.contact-info p {}
 
 /********************* FOOTER *********************/
 footer {
@@ -382,14 +378,12 @@ footer {
     background-attachment: fixed;
   }
 
-  .post {
-    width: 33%;
+
+
+  .project  {
+    width: 260px;
   }
 
-  .blog {
-    width: 60%;
-    margin: 0 auto;
-  }
 
   .footer-brand {
     width: 33%;
@@ -406,7 +400,13 @@ footer {
     justify-content: center;
   }
 
-  @media screen and (min-width: 1400px) {
+@media screen and (min-width: 1295px) {
+    .project {
+      width: 340px;
+    }
+  }
+
+@media screen and (min-width: 1400px) {
     .hero-text h1 {
       font-size: 60px;
     }
@@ -418,5 +418,9 @@ footer {
 
     .hero-btn a {
       font-size: 30px;
+    }
+
+    .project  {
+      width: 200px;
     }
   }
